@@ -1,0 +1,44 @@
+.Ads_hables {
+    width: 100%;
+    padding: 24px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.Header_title {
+    font-size: 24px;
+    font-weight: 700;
+    display: inline-block;
+    cursor: default;
+}
+
+.Header_button {
+    font-size: 14px;
+    font-weight: 700;
+    float: right;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.Ads_content {
+
+}
+
+.Ads_box {
+    display: inline-block;
+}
+
+.Box_info {
+
+}
+
+.Box_name {
+
+}
+
+.Box_fone{
+
+}
