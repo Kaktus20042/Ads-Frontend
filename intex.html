@@ -1,39 +1,59 @@
 <!DOCTYPE html>
 <html lang="ru">
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title Объявления></title>
- <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обьявление</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
 <body>
-    <div class="Ads_header">
-    <div class="Header_title"Объявления></div>
-    <div class="Header_button"Добавить></div>
+    <div class="Ads__header">
+        <div class="Header__title">Объявление</div>
+        <div id="add" class="Header__button">Добавить</div>
     </div>
-    <div class="Ads_content">
-        <div class="Ads_box">
-            <div class="Box_info">
-                Текст объявления 1
-            </div>
-            <div class="Box_name">
-                Имя
-            </div>
-            <div class="Box_fone">
-                +7 (999 127-19-68)
-            </div>
+    <div class="Ads__content">
+        <div class="Ads__box">
+            <div class="Box__info">Текст обьявления 1</div>
+            <div class="Box__name">Имя</div>
+            <div class="Box_phone">+7 (999 127-19-68)</div>
+        </div>
+
+        <div class="Ads__box">
+            <div class="Box__info">Текст обьявления 2</div>
+            <div class="Box__name">Имя</div>
+            <div class="Box_phone">+7 (999 127-19-68)</div>
         </div>
     </div>
-    <div class="Ads_content">
-        <div class="Ads_box">
-            <div class="Box_info">
-                Текст объявления 2
+
+
+    <div class="Modal_window">
+        <i></i>
+    
+    <div class="Modal_form">
+        <div class="From_title">Новое Объявление</div>
+        <div class="Form_content">
+        <div class="Form_filed">
+                <label>Текст объявления</label>
+                    <input type="text">
             </div>
-            <div class="Box_name">
-                Имя
+        <div class="Form_filed">
+                <label>Имя</label>
+                    <input type="text">
             </div>
-            <div class="Box_fone">
-                +7 (999 127-19-68)
+        <div class="Form_filed">
+                <label>Телефон</label>
+                    <input type="text">
             </div>
+            <button class="Form_button">Добавить</button>
         </div>
     </div>
+    <i></i>
+    </div>
+
+    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+
+
 </body>
 </html>
